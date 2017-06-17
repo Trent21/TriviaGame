@@ -1,0 +1,106 @@
+
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color:#272625;
+  background-image: url("http://wallpapercave.com/wp/WFTMul0.jpg");
+  margin:120px;
+}
+
+.nba {
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  margin: inherit;
+}
+
+.gameContainer {
+  text-align:center;
+}
+
+.startGame {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background-color:blue;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline;
+  position:inherit;
+  cursor:pointer;
+  color:white;
+  font-size:30px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+}
+.startGame:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.startGame:active {
+  position:relative;
+  top:1px;
+}
+
+.next {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background-color:blue;
+  border-radius:10px;
+  border:1px solid #4e6096;
+  display:inline;
+  position:inherit;
+  cursor:pointer;
+  color:white;
+  font-size:30px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+}
+.next:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+  color:white;
+}
+.next:active {
+  position:relative;
+  top:1px;
+}
+
+h1 {
+  text-align:center;
+  font-size:50px;
+  text-shadow: #c9d6de 1px 3px;
+  margin: inherit;
+  color:white;
+}
+
+.question {
+  font-size:30px;
+  color:white;
+}
+
+.answers {
+  font-size: 20px;
+}
+
+.scoreDisplay {
+  font-size: 30px;
+  color:white;
+}
+
+label {
+  border:1px solid blue;
+  padding:10px;
+  margin:0 0 10px;
+  display:block;
+}
+
+label:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+  cursor:pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.padeContent {
+  background-color: rgba(255, 0, 0, 0.15);
+}
